@@ -1,5 +1,7 @@
 # Multi-Language Django
 
+![letters](languages.jpg)
+
 ## A. Translated labels and Language selection
 
 1.  In HTML page add 
