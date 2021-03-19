@@ -9,3 +9,8 @@ class Product(TranslatableModel):
     )
     price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
+
+
+class Person(models.Model):
+    name = models.CharField(max_length=50)
+    image = models.ImageField(upload_to='media/')

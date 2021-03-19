@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persons</title>
+</head>
+<body>
+    {% for person in persons %}
+        <div>
+            <h2>{{ person.name }}</h2>
+            <img src="/{{ person.image }}" width="300px"/>
+        </div>
+    {% endfor %}
+</body>
+</html>
